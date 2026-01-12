@@ -19,7 +19,7 @@ select effective_date from O2otapp7.SOC where soc like 'X20HR%' and service_type
 select effective_date from pcprod_e.soc where soc like 'X20HR%' and service_type='P' and expiration_date IS NULL;
 
 
-select * from dba_tab_columns where column_name='CPI_FLAG' and owner in ('O2OAAPP25','O2OAREF25');
+select * from dba_tab_columns where column_name='CPI_FLAG' and owner in ('');
 
 select * from dba_users where username like 'O2OAAPP%' order by 1;
 
